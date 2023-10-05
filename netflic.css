@@ -1,0 +1,385 @@
+body{
+    background: #040101;
+}
+.light-image {
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.3);    
+}
+.light-image2{
+    position: relative;
+}
+.light-image2 img{
+    margin-left: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}   
+.light-image2 video{
+    position: absolute;
+    left: 5.7%;
+    bottom: 26%;
+    margin-left: 50%;
+    width: 30.9%;
+    height: 40.7%;
+    margin-bottom: 2.5%;
+    z-index: -1;
+}
+
+.image3{  
+    background-color: rgb(0, 0, 0); 
+    padding: 20px; 
+    width: 20.5%; 
+    height: 8%;
+    position: absolute;
+    margin-left: 19%;
+    margin-top: 21.5%;
+    z-index: 1;
+    border: 2px solid #4a4846
+}
+.mobile-0819{
+    margin-left: 10%;
+    position: relative;
+    margin-bottom: 8%;
+    
+}
+.book{
+    width: 4%;
+    position: absolute;
+    margin-left: -32.5%;
+    margin-top: 22%;
+    z-index: 1;
+}
+.gifone{
+    width: 3%;
+    position: absolute;
+    margin-left: -13.5%;
+    margin-top: 23.3%;
+    z-index: 1;
+}
+
+.try{
+    position: relative;
+}
+.try img{
+    margin-left: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+} 
+  
+.try video{
+    position: absolute;
+    height: 53%;
+    z-index: -1;
+    left: 57.5%;
+    bottom: 35.7%;
+    width: 27%;
+}
+.temp{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+}
+.last{
+    text-align: center;
+    font-size: 25px;
+    color: #e6e4ec;
+    font-family: Arial;
+}
+
+.faq-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 5%;
+   
+}
+
+.faq-list li {
+    margin: 10px auto;
+    padding: 10px;
+    background-color:#303030;
+    border-radius: 8px;
+    width: 80%;
+    text-align: left; 
+    position: relative; 
+    height: 7%;
+    font-size: 30px;
+    font-family: Arial;
+}
+.faq-list li::before {
+    content: "+";
+    display: block; 
+    position: absolute; 
+    top: 50%; 
+    right: 10px; 
+    transform: translateY(-50%);
+    font-size: 36px; 
+    font-weight: bold;
+    color: #e6e4ec;
+}
+
+footer {
+    color: #e9e3e3;
+    padding: 20px 0;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.column1,
+.column2,
+.column3,
+.column4 {
+    flex: 1;
+    padding: 0 10px;
+    text-align: left;
+}
+
+.column1 p,
+.column2 p,
+.column3 p,
+.column4 p {
+    margin: 20px 0; 
+    text-decoration: underline;
+    color:rgba(255,255,255,0.7);
+}
+.p-tag{
+    color:rgba(255,255,255,0.7);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10.5%;
+    font-size: 20px;
+    margin-top: 3%;
+}
+.logo1{
+    width:10%;
+    height: 7%;
+    position: absolute;
+    z-index: 1;
+    left:10%;
+    top:4%;
+}
+.dropdown{
+    width:7%;
+    height: 5%;
+    position: absolute;
+    z-index: 1;
+    left:68%;
+    top:4%;
+    background-color:black;
+    color: white;
+    border-radius: 5px;
+    font-family:Arial;
+}
+.button1{
+    width:5%;
+    height: 5%;
+    position: absolute;
+    z-index: 1;
+    left:76.5%;
+    top:4%;
+    background-color:rgb(226, 5, 5);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family:Arial;
+}
+.line1{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    left: 15%;
+    right: 15%;
+    top: 30%;
+    font-family:Arial;
+}
+.line2{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    left: 15%;
+    right: 15%;
+    top: 50%;
+    font-family:Arial;
+
+}
+.line3{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    left: 15%;
+    right: 15%;
+    top: 58%;
+    font-family:Arial;
+}
+.email{
+    position: absolute;
+    z-index: 1;
+    text-align: left;
+    width: 25%;
+    height: 7.5%;
+    left:30%;
+    top: 68%;
+    border-radius: 5px;
+    background-color:black;
+    font-size: 17px;
+}
+.button2{
+    width:13%;
+    height: 8%;
+    position: absolute;
+    z-index: 1;
+    left:56%;
+    top:67.5%;
+    background-color:rgb(226, 5, 5);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family:Arial;
+    font-size: 25px;
+}
+.h1line{
+    position: absolute;
+    z-index: 1;
+    color:white;
+    margin-left: 13%;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    font-size: 50px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.line2-2{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    left: 13%;
+    right: 5%;
+    top: 45%;
+    font-family:Arial;
+}
+.h2line{
+    position: absolute;
+    z-index: 1;
+    color:white;
+    margin-left: 52%;
+    margin-top: 10%;
+    font-size: 50px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.line3-3{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    font-family:Arial;
+    margin-left: 52%;
+    margin-top: 18%;
+}
+.h3line{
+    position: absolute;
+    z-index: 1;
+    color:white;
+    margin-left: 13%;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    font-size: 50px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.line4-4{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    left: 13%;
+    right: 5%;
+    top: 45%;
+    font-family:Arial;
+    font-weight: bold;
+}
+.h4line{
+    position: absolute;
+    z-index: 1;
+    color:white;
+    margin-left: 42%;
+    margin-top: 10%;
+    font-size: 50px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.line5-5{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    font-family:Arial;
+    margin-left: 42%;
+    margin-top: 15%;
+}
+.do{
+    width: 25%;
+    height: 7.5%;
+    margin-left: 30%;
+    border-radius: 5px;
+    background-color:black;
+    font-size: 17px;
+}
+.last-line{
+    color: white;
+    font-size: 20px;
+    font-family:Arial;
+    margin-left: 28%;
+}
+.button3{
+    width:14%;
+    height: 8%;
+    left:56%;
+    top:67.5%;
+    background-color:rgb(226, 5, 5);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family:Arial;
+    font-size: 25px;
+    margin-bottom: 4%;
+}
+.dropdown2{
+    width:7%;
+    height: 5%;
+    background-color:black;
+    color: white;
+    border-radius: 5px;
+    font-family:Arial;
+    margin-left: 10.5%;
+    margin-top: 1%;
+}
+.anotherptag{
+    width:7%;
+    height: 5%;
+    background-color:black;
+    color: rgba(255,255,255,0.7);
+    border-radius: 5px;
+    font-family:Arial;
+    margin-left: 10.5%;
+    margin-top: 1.5%;
+}
